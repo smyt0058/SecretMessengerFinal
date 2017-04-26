@@ -16,6 +16,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+/******************************
+*   App: Secret Messenger
+*   Author: Jason Smyth
+*   File: index.css
+*   Version: 1.1
+*   Date Modified: 20017-04-26
+*******************************/
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
@@ -32,11 +39,30 @@ body {
     margin-left: 10%;
 }
 
+#icon {
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+    height: 35%;
+}
+
+#msgDiv {
+    width: 
+}
+
+#msgText {
+    text-align: center;
+    font-size: 1rem;
+    margin: 2rem 0 1rem 0;
+    
+}
+
 #username{
     max-width: 80%;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 5rem;
+    margin-top: 2rem;
     
 }
 
@@ -47,12 +73,26 @@ body {
     margin-bottom: 2rem;
 }
 
+#refreshBtn {
+    height: 4rem;
+}
+
 canvas {
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
+    border: 2px solid ;
+    border-radius: 8px;
 }
 
 #sendPicBtn {
     display: none;
 }
 
+label {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#errorP {
+    color: red;
+    text-align: center;
+}

@@ -269,9 +269,12 @@ a:active {
 }
 
 .content > * {
+  -webkit-translate: translate3d(0,0,0);
+/*
   -webkit-transform: translateZ(0);
       -ms-transform: translateZ(0);
           transform: translateZ(0);
+*/
 }
 
 .bar-nav ~ .content {
